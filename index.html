@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinWin</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f0f0f0; /* Light gray background */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: white; /* Header background white */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for header */
+        }
+        img {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 10px; /* Spacing between logo and title */
+        }
+        .container {
+            display: flex; /* Use flexbox for layout */
+            max-width: 800px;
+            margin: 50px auto; /* Center the container */
+            padding: 20px;
+            background-color: white; /* White background for main container */
+            border-radius: 8px; /* Rounded corners for container */
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #330099; /* Indigo for subtitles */
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #333; /* Dark text for readability */
+        }
+        .benefit::before, .key-feature::before {
+            content: '✔'; /* Indigo checkmark */
+            color: #330099; /* Indigo color */
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        .testimonials {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0;
+        }
+        .testimonial {
+            position: relative;
+            width: 30%;
+            text-align: center;
+        }
+        .testimonial img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(51, 0, 153, 0.7); /* Indigo with transparency */
+            color: white;
+            padding: 10px;
+            font-style: italic;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        button {
+            background-color: #330099; /* Indigo button */
+            color: white;
+            border: none;
+            padding: 20px 40px; /* Larger padding for a bigger button */
+            font-size: 1.5em; /* Larger text size */
+            border-radius: 8px; /* Slightly rounded corners */
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: block;
+            margin: 50px auto; /* Center the button */
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: #29007a; /* Darker indigo on hover */
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #330099; /* Indigo footer */
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="WINWIN logo.png" alt="WinWin Logo">
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Why Choose WinWin?</h2>
+            <p>Provide retail investors in Australia with the opportunity to invest in mortgage offset accounts, empowering them to diversify their investment portfolio and achieve financial goals.</p>
+            
+            <h2>Key Benefits</h2>
+            <div class="benefits">
+                <div class="benefit">Maximized Returns. Earn higher profits than standard savings.</div>
+                <div class="benefit">Reduced Mortgage Interest. Save money on your mortgage repayments.</div>
+                <div class="benefit">Diversified Portfolio. Spread investment risk across assets.</div>
+                <div class="benefit">Secure Investments. Stable returns in a regulated market.</div>
+            </div>
+
+            <h2>Testimonials</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="steve_sydney.png" alt="Steve from Sydney">
+                    <div class="overlay">"OffsetVest made investing simple and rewarding." - Steve from Sydney</div>
+                </div>
+                <div class="testimonial">
+                    <img src="anna_melbourne.png" alt="Anna from Melbourne">
+                    <div class="overlay">"Finally, an opportunity to grow my wealth with low risk." - Anna from Melbourne</div>
+                </div>
+                <div class="testimonial">
+                    <img src="daniel_brisbane.png" alt="Daniel from Brisbane">
+                    <div class="overlay">"I trust OffsetVest for consistent returns and transparency." - Daniel from Brisbane</div>
+                </div>
+            </div>
+
+            <h2>Key Features</h2>
+            <div class="key-features">
+                <div class="key-feature">Easy Investment. Seamless process to invest in mortgage offsets.</div>
+                <div class="key-feature">Real-time Tracking. Monitor your investments and returns live.</div>
+                <div class="key-feature">Expert Guidance. Access professional advice on investment strategies.</div>
+                <div class="key-feature">Flexible Withdrawals. Easily liquidate investments when needed.</div>
+            </div>
+
+            <h2>Start Investing Today</h2>
+            <p>Join OffsetVest and unlock your investment potential.</p>
+            <button>Invest Today</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 WinWin. All rights reserved.</p>
+    </footer>
+</body>
+</html>
